@@ -22,7 +22,7 @@ This project presents a supervised machine learning pipeline designed to predict
 
 ---
 
-## 📊 Key Findings
+## Key Findings
 
 - **Top Performers**: **MLP** and **Random Forest** achieved the best overall balance between Precision and Recall. MLP demonstrated slightly superior classification accuracy by reducing critical False Negative errors.
 - **Class Imbalance Impact**: The natural imbalance between rain and no-rain days introduces model bias toward the majority class (`No`), highlighting the necessity of threshold tuning and metric prioritization (F1-score over simple accuracy).
@@ -30,18 +30,8 @@ This project presents a supervised machine learning pipeline designed to predict
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Language**: Python 3
 - **Data Manipulation & Analysis**: Pandas, NumPy
-- **Machine Learning**: Scikit-Learn
 - **Visualization**: Matplotlib, Seaborn
-
----
-
-## 🚀 Getting Started
-
-1. **Clone the repository**:
-   ```bash
-   git clone [https://github.com/](https://github.com/)<YOUR-USERNAME>/rain-prediction-australia.git
-   cd rain-prediction-australia
